@@ -19,14 +19,14 @@ server.get('/bears', function(request, response){
               response.send(bear);
 });
 
-server.get('/bears', function(request, response){
+server.get('/bears/:id', function(request, response){
  var bear = db.get('bears')
               .find({id: request.params.id})
               .value();
               response.send(bear);
 });
 
-server.put('/bears', function(request, response){
+server.put('/bears/:id', function(request, response){
   var updatedBearInfo = {
     size: request.body.size,
     color: request.body.color,

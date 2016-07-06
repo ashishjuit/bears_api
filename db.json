@@ -1,8 +1,11 @@
 {
   "bears": [
     {
-      "id": "238ee690-aa9f-4a0c-8919-9073ceb0f385",
-      "notes": "Ramnknwlnwb",
+      "id": "91f9ffdb-3ea5-4612-a75a-5caa333ffd9a",
+      "color": "green",
+      "type": "Grill",
+      "gender": "female",
+      "notes": "treehouse",
       "isAwake": false,
       "isHungry": false,
       "hasKids": false
