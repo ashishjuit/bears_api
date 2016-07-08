@@ -2,13 +2,9 @@
   "bears": [
     {
       "id": "91f9ffdb-3ea5-4612-a75a-5caa333ffd9a",
-      "color": "green",
-      "type": "Grill",
-      "gender": "female",
-      "notes": "treehouse",
-      "isAwake": false,
+      "isAwake": true,
       "isHungry": false,
-      "hasKids": false
+      "hasKids": true
     }
   ]
 }
